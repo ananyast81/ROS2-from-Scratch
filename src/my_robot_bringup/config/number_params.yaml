@@ -1,0 +1,5 @@
+/abc/number_publisher:
+  ros__parameters:
+   number: 7
+   publish_period: 0.8
+   
