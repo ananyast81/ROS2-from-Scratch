@@ -1,0 +1,2 @@
+float32 lin_vel_x
+float32 ang_vel_z

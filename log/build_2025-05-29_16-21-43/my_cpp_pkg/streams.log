@@ -1,0 +1,52 @@
+[0.012s] Invoking command in '/home/ananya/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ananya/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ananya/ros2_ws/install/my_cpp_pkg
+[1.745s] -- The C compiler identification is GNU 13.3.0
+[2.428s] -- The CXX compiler identification is GNU 13.3.0
+[2.474s] -- Detecting C compiler ABI info
+[2.691s] -- Detecting C compiler ABI info - done
+[2.704s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.704s] -- Detecting C compile features
+[2.705s] -- Detecting C compile features - done
+[2.716s] -- Detecting CXX compiler ABI info
+[2.827s] -- Detecting CXX compiler ABI info - done
+[2.835s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.836s] -- Detecting CXX compile features
+[2.836s] -- Detecting CXX compile features - done
+[2.890s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.130s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.514s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.685s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.719s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.755s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.984s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.005s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.275s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.322s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.344s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.516s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.706s] -- Added test 'lint_cmake' to check CMake code style
+[4.708s] -- Added test 'xmllint' to check XML markup files
+[4.710s] -- Configuring done (3.9s)
+[4.715s] -- Generating done (0.0s)
+[4.743s] -- Build files have been written to: /home/ananya/ros2_ws/build/my_cpp_pkg
+[4.756s] Invoked command in '/home/ananya/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ananya/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ananya/ros2_ws/install/my_cpp_pkg
+[4.757s] Invoking command in '/home/ananya/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ananya/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[4.806s] Invoked command in '/home/ananya/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ananya/ros2_ws/build/my_cpp_pkg -- -j8 -l8
+[4.819s] Invoking command in '/home/ananya/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ananya/ros2_ws/build/my_cpp_pkg
+[4.826s] -- Install configuration: ""
+[4.826s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.826s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.826s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.826s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.826s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.826s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.826s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.826s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.827s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.827s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.827s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.827s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.827s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.827s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.827s] -- Installing: /home/ananya/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.828s] Invoked command in '/home/ananya/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ananya/ros2_ws/build/my_cpp_pkg

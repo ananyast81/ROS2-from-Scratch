@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/srv/ActivateTurtle_Response",
+      "fields": [
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/srv/ActivateTurtle_Response",
+      "hash_string": "RIHS01_1f64469c686472be63e91272ee08fb94970c07ec543c7ecaeba42cb53ef62069"
+    }
+  ]
+}

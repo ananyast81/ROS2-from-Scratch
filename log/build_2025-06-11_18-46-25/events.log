@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000271] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000315] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000342] (-) JobUnselected: {'identifier': 'turtle_controller'}
+[0.000365] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/ananya/ros2_ws/install/my_robot_interfaces'})}
+[0.000627] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.099863] (-) TimerEvent: {}
+[0.200198] (-) TimerEvent: {}
+[0.300530] (-) TimerEvent: {}
+[0.400849] (-) TimerEvent: {}
+[0.501175] (-) TimerEvent: {}
+[0.601471] (-) TimerEvent: {}
+[0.701877] (-) TimerEvent: {}
+[0.802420] (-) TimerEvent: {}
+[0.902812] (-) TimerEvent: {}
+[1.003225] (-) TimerEvent: {}
+[1.103707] (-) TimerEvent: {}
+[1.204204] (-) TimerEvent: {}
+[1.304775] (-) TimerEvent: {}
+[1.405230] (-) TimerEvent: {}
+[1.505777] (-) TimerEvent: {}
+[1.606310] (-) TimerEvent: {}
+[1.706850] (-) TimerEvent: {}
+[1.807381] (-) TimerEvent: {}
+[1.907991] (-) TimerEvent: {}
+[2.008528] (-) TimerEvent: {}
+[2.109076] (-) TimerEvent: {}
+[2.209537] (-) TimerEvent: {}
+[2.310061] (-) TimerEvent: {}
+[2.410605] (-) TimerEvent: {}
+[2.511047] (-) TimerEvent: {}
+[2.611539] (-) TimerEvent: {}
+[2.712108] (-) TimerEvent: {}
+[2.812657] (-) TimerEvent: {}
+[2.913146] (-) TimerEvent: {}
+[3.013616] (-) TimerEvent: {}
+[3.114145] (-) TimerEvent: {}
+[3.214757] (-) TimerEvent: {}
+[3.315256] (-) TimerEvent: {}
+[3.415856] (-) TimerEvent: {}
+[3.516355] (-) TimerEvent: {}
+[3.616910] (-) TimerEvent: {}
+[3.717451] (-) TimerEvent: {}
+[3.817937] (-) TimerEvent: {}
+[3.918445] (-) TimerEvent: {}
+[4.019013] (-) TimerEvent: {}
+[4.119541] (-) TimerEvent: {}
+[4.219973] (-) TimerEvent: {}
+[4.320384] (-) TimerEvent: {}
+[4.420725] (-) TimerEvent: {}
+[4.521039] (-) TimerEvent: {}
+[4.621423] (-) TimerEvent: {}
+[4.722015] (-) TimerEvent: {}
+[4.822450] (-) TimerEvent: {}
+[4.826612] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/ananya/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/ananya/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ananya/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'ananya', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ananya/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ananya', 'OLDPWD': '/home/ananya', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2364', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ananya/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ananya', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ananya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ananya-laptop:@/tmp/.ICE-unix/2321,unix/ananya-laptop:/tmp/.ICE-unix/2321', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cfccaea8_851d_4417_82c1_6d838763b8be', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R24T72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.147', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ananya/ros2_ws/install/turtle_controller:/home/ananya/ros2_ws/install/my_py_pkg:/home/ananya/ros2_ws/install/my_robot_interfaces:/home/ananya/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ananya/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ananya/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/ananya/ros2_ws/install/turtle_controller/lib/python3.12/site-packages:/home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ananya/ros2_ws/install/my_robot_interfaces:/home/ananya/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.922622] (-) TimerEvent: {}
+[5.022959] (-) TimerEvent: {}
+[5.095874] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.111957] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[5.112183] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[5.112318] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[5.112494] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[5.112745] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[5.123094] (-) TimerEvent: {}
+[5.148830] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.162413] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[5.162736] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[5.162808] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.162972] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/reset_counter_client.py -> /home/ananya/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[5.163158] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[5.169219] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.185946] (my_py_pkg) StdoutLine: {'line': b'copying /home/ananya/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/reset_counter_client.py -> /home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[5.186503] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/reset_counter_client.py to reset_counter_client.cpython-312.pyc\n'}
+[5.187348] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.187600] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.205227] (my_py_pkg) StdoutLine: {'line': b"removing '/home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.205482] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[5.221433] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.223203] (-) TimerEvent: {}
+[5.323487] (-) TimerEvent: {}
+[5.336995] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/ananya/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.337271] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/ananya/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.337353] (my_py_pkg) StdoutLine: {'line': b'Installing reset_counter_client script to /home/ananya/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.337518] (my_py_pkg) StdoutLine: {'line': b'Installing test_node script to /home/ananya/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[5.337715] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ananya/ros2_ws/build/my_py_pkg/install.log'\n"}
+[5.367624] (my_py_pkg) CommandEnded: {'returncode': 0}
+[5.423644] (-) TimerEvent: {}
+[5.524061] (-) TimerEvent: {}
+[5.624481] (-) TimerEvent: {}
+[5.657183] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[5.658792] (-) EventReactorShutdown: {}

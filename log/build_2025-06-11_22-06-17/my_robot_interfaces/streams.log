@@ -1,0 +1,372 @@
+[0.010s] Invoking command in '/home/ananya/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ananya/ros2_ws/install/turtle_controller:/home/ananya/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ananya/ros2_ws/build/my_robot_interfaces -- -j8 -l8
+[0.033s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.058s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.134s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.192s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.683s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.902s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.157s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.174s] -- Configuring done (1.1s)
+[1.216s] -- Generating done (0.0s)
+[1.232s] -- Build files have been written to: /home/ananya/ros2_ws/build/my_robot_interfaces
+[1.266s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.275s] [  1%] Built target ament_cmake_python_copy_my_robot_interfaces
+[1.487s] running egg_info
+[1.510s] writing my_robot_interfaces.egg-info/PKG-INFO
+[1.511s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[1.511s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[1.523s] [  1%] Built target my_robot_interfaces__rosidl_generator_type_description
+[1.533s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.543s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.575s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.575s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.614s] [  4%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[2.219s] [  4%] Built target my_robot_interfaces__cpp
+[2.321s] [  9%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[2.321s] [  9%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[2.322s] [  9%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[2.322s] [ 10%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__functions.c.o[0m
+[2.322s] [ 12%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/reset_counter__description.c.o[0m
+[2.324s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hardware_status__description.c.o[0m
+[2.326s] [ 15%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/activate_turtle__functions.c.o[0m
+[2.330s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/activate_turtle__description.c.o[0m
+[2.406s] [ 18%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/activate_turtle__type_support.c.o[0m
+[2.426s] [ 20%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/count_until__description.c.o[0m
+[2.435s] [ 21%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/count_until__functions.c.o[0m
+[2.437s] [ 23%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/count_until__type_support.c.o[0m
+[2.613s] [ 25%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[2.652s] [ 25%] Built target my_robot_interfaces__rosidl_generator_c
+[2.666s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.666s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.667s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.667s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.667s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.667s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.411s] [ 37%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[3.411s] [ 37%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[3.423s] [ 39%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/activate_turtle__type_support.cpp.o[0m
+[3.445s] [ 40%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[3.554s] [ 42%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[3.628s] [ 43%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/srv/activate_turtle__type_support.cpp.o[0m
+[3.696s] [ 45%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[3.706s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/count_until__type_support.cpp.o[0m
+[3.756s] [ 48%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[3.774s] [ 50%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[3.875s] [ 51%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/activate_turtle__type_support.c.o[0m
+[3.890s] [ 53%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[3.959s] [ 53%] Built target my_robot_interfaces__rosidl_typesupport_c
+[3.976s] [ 54%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/reset_counter__type_support.cpp.o[0m
+[3.977s] [ 56%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__type_support.c.o[0m
+[4.009s] [ 57%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/count_until__type_support.cpp.o[0m
+[4.075s] [ 59%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[4.120s] [ 60%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o[0m
+[4.161s] [ 62%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/activate_turtle__type_support.cpp.o[0m
+[4.161s] [ 64%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.210s] [ 64%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[4.218s] [ 65%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[4.224s] [ 67%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/srv/detail/activate_turtle__type_support.cpp.o[0m
+[4.395s] [ 68%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/reset_counter__type_support_c.cpp.o[0m
+[5.071s] [ 70%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/count_until__type_support.cpp.o[0m
+[5.140s] [ 71%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o[0m
+[5.155s] [ 73%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/activate_turtle__type_support_c.cpp.o[0m
+[5.464s] [ 75%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/count_until__type_support_c.cpp.o[0m
+[6.019s] [ 76%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[6.164s] [ 76%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[6.427s] [ 78%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.563s] [ 79%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.577s] [ 79%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[6.668s] [ 79%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[6.809s] [ 81%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.898s] [ 81%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.915s] [ 81%] Built target my_robot_interfaces
+[6.934s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.138s] [ 82%] Built target my_robot_interfaces__py
+[8.162s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_reset_counter_s.c.o[0m
+[8.163s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c.o[0m
+[8.163s] [ 87%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/srv/_activate_turtle_s.c.o[0m
+[8.166s] [ 89%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c.o[0m
+[8.448s] [ 90%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_py.so[0m
+[8.521s] [ 90%] Built target my_robot_interfaces__rosidl_generator_py
+[8.551s] [ 92%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.555s] [ 93%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.555s] [ 95%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.782s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[8.789s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.800s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so[0m
+[8.818s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[8.836s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[8.837s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[8.853s] Invoked command in '/home/ananya/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ananya/ros2_ws/install/turtle_controller:/home/ananya/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ananya/ros2_ws/build/my_robot_interfaces -- -j8 -l8
+[8.864s] Invoking command in '/home/ananya/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ananya/ros2_ws/install/turtle_controller:/home/ananya/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ananya/ros2_ws/build/my_robot_interfaces
+[8.873s] -- Install configuration: ""
+[8.873s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[8.873s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.json
+[8.874s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.json
+[8.874s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ActivateTurtle.json
+[8.874s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.json
+[8.874s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.874s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[8.875s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/reset_counter.h
+[8.875s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[8.875s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__type_support.h
+[8.875s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__type_support.c
+[8.875s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__description.c
+[8.875s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__functions.c
+[8.876s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.h
+[8.876s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__functions.h
+[8.876s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__description.c
+[8.876s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__struct.h
+[8.876s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__functions.c
+[8.877s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__functions.h
+[8.877s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__struct.h
+[8.877s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.c
+[8.877s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/activate_turtle.h
+[8.877s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.877s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h
+[8.877s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_publisher.h
+[8.878s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[8.878s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__type_support.h
+[8.878s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__description.c
+[8.878s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[8.878s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__type_support.c
+[8.878s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c
+[8.878s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h
+[8.879s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__struct.h
+[8.879s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__functions.c
+[8.879s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h
+[8.879s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__functions.h
+[8.879s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__description.c
+[8.879s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h
+[8.879s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.880s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.880s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.880s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.h
+[8.880s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__description.c
+[8.880s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__functions.c
+[8.880s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.c
+[8.880s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__functions.h
+[8.880s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__struct.h
+[8.881s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/count_until.h
+[8.881s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[8.881s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[8.881s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[8.881s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[8.881s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.882s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[8.882s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[8.882s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_c.h
+[8.882s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__rosidl_typesupport_fastrtps_c.h
+[8.882s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.882s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[8.882s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[8.883s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__rosidl_typesupport_fastrtps_c.h
+[8.883s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.883s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.883s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.883s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h
+[8.883s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.883s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.883s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.884s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[8.884s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[8.884s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__type_support.c
+[8.884s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h
+[8.884s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__rosidl_typesupport_introspection_c.h
+[8.884s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.c
+[8.885s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.885s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.885s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[8.885s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__rosidl_typesupport_introspection_c.h
+[8.885s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[8.885s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c
+[8.885s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__type_support.c
+[8.886s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.887s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.887s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.c
+[8.887s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h
+[8.887s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[8.888s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.888s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[8.888s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[8.888s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.888s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[8.888s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/activate_turtle.hpp
+[8.888s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[8.889s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__struct.hpp
+[8.889s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__type_support.hpp
+[8.889s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__builder.hpp
+[8.889s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.hpp
+[8.889s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__struct.hpp
+[8.889s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__traits.hpp
+[8.890s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__builder.hpp
+[8.890s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__traits.hpp
+[8.890s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/reset_counter.hpp
+[8.890s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.890s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp
+[8.890s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[8.891s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__builder.hpp
+[8.891s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__struct.hpp
+[8.891s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__type_support.hpp
+[8.891s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp
+[8.891s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.hpp
+[8.892s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__traits.hpp
+[8.892s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp
+[8.892s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp
+[8.892s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/turtle_publisher.hpp
+[8.892s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.893s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.893s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/count_until.hpp
+[8.893s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.893s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.hpp
+[8.893s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__builder.hpp
+[8.893s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__struct.hpp
+[8.893s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__traits.hpp
+[8.893s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.894s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[8.894s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[8.894s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps
+[8.894s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp
+[8.894s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[8.894s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.894s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.895s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[8.895s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps
+[8.895s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__rosidl_typesupport_fastrtps_cpp.hpp
+[8.895s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[8.895s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.895s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.895s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/dds_fastrtps
+[8.896s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp
+[8.896s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.896s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.896s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.896s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv
+[8.896s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail
+[8.896s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__type_support.cpp
+[8.897s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_cpp.hpp
+[8.897s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__rosidl_typesupport_introspection_cpp.hpp
+[8.897s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/activate_turtle__type_support.cpp
+[8.897s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.897s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail
+[8.897s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp
+[8.897s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__rosidl_typesupport_introspection_cpp.hpp
+[8.897s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/turtle_publisher__type_support.cpp
+[8.898s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[8.898s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.898s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.898s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp
+[8.898s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.cpp
+[8.898s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.899s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.899s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[8.899s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.899s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[8.899s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[8.899s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info
+[8.899s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[8.900s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[8.900s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[8.900s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[8.900s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces
+[8.900s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv
+[8.900s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter_s.c
+[8.900s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_activate_turtle_s.c
+[8.901s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter.py
+[8.901s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py
+[8.901s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_activate_turtle.py
+[8.901s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg
+[8.901s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_turtle_publisher.py
+[8.901s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status_s.c
+[8.901s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py
+[8.901s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_turtle_publisher_s.c
+[8.902s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py
+[8.902s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[8.902s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.902s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.902s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action
+[8.903s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_count_until_s.c
+[8.903s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/__init__.py
+[8.903s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_count_until.py
+[8.903s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[8.904s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[8.905s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[8.905s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[8.980s] Listing '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[8.981s] Compiling '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...
+[8.981s] Listing '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action'...
+[8.981s] Compiling '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/__init__.py'...
+[8.981s] Compiling '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_count_until.py'...
+[8.981s] Listing '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg'...
+[8.981s] Compiling '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/__init__.py'...
+[8.981s] Compiling '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/msg/_hardware_status.py'...
+[8.982s] Listing '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv'...
+[8.982s] Compiling '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/__init__.py'...
+[8.982s] Compiling '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_activate_turtle.py'...
+[8.982s] Compiling '/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/srv/_reset_counter.py'...
+[8.989s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[8.989s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.989s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[8.992s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[8.992s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[8.992s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so" to ""
+[8.992s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[8.993s] -- Set non-toolchain portion of runtime path of "/home/ananya/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[8.993s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl
+[8.993s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.idl
+[8.993s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ActivateTurtle.idl
+[8.993s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.idl
+[8.993s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg
+[8.995s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ResetCounter.srv
+[8.995s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ActivateTurtle.srv
+[8.996s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.action
+[8.996s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[8.996s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[8.996s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[8.997s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[8.997s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[8.997s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[8.997s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[8.997s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[8.997s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[8.997s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[8.998s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[8.998s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[8.998s] -- Old export file "/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[8.998s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[9.000s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.000s] -- Old export file "/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[9.000s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.000s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.000s] -- Old export file "/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[9.000s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.000s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.000s] -- Old export file "/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[9.000s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[9.001s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.001s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[9.001s] -- Old export file "/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[9.001s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.001s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.001s] -- Old export file "/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[9.001s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.001s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.001s] -- Old export file "/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[9.001s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[9.001s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.002s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[9.002s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.002s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.002s] -- Installing: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.002s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.002s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.002s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.003s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.003s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.003s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[9.003s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[9.003s] -- Up-to-date: /home/ananya/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[9.005s] Invoked command in '/home/ananya/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ananya/ros2_ws/install/turtle_controller:/home/ananya/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ananya/ros2_ws/build/my_robot_interfaces

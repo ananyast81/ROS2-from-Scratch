@@ -1,0 +1,30 @@
+[1.439s] Invoking command in '/home/ananya/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ananya/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ananya/ros2_ws/build/my_py_pkg/build install --record /home/ananya/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.685s] running egg_info
+[1.703s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.704s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.704s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.704s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.704s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.741s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.762s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.762s] running build
+[1.762s] running build_py
+[1.762s] copying my_py_pkg/number_publisher.py -> /home/ananya/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.762s] copying my_py_pkg/number_counter.py -> /home/ananya/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.763s] running install
+[1.769s] running install_lib
+[1.786s] copying /home/ananya/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.786s] copying /home/ananya/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[1.786s] byte-compiling /home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-312.pyc
+[1.787s] byte-compiling /home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-312.pyc
+[1.787s] running install_data
+[1.788s] copying package.xml -> /home/ananya/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.788s] running install_egg_info
+[1.808s] removing '/home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.809s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[1.832s] running install_scripts
+[1.950s] Installing number_counter script to /home/ananya/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.950s] Installing number_publisher script to /home/ananya/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.950s] Installing test_node script to /home/ananya/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.950s] writing list of installed files to '/home/ananya/ros2_ws/build/my_py_pkg/install.log'
+[1.983s] Invoked command in '/home/ananya/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ananya/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ananya/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/ananya/ros2_ws/build/my_py_pkg/build install --record /home/ananya/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
